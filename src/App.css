@@ -2,13 +2,19 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  /* text-align: center; */
+  text-align: center;
+  align-content: center;
 }
 
 body {
   min-height: 100vh;
 }
 
-#root > div {
-
+#colorContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 45%;
 }
