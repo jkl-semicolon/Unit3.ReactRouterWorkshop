@@ -1,1 +1,1 @@
-netlify link: https://app.netlify.com/sites/thriving-squirrel-68030c/deploys/660c38bfa601e24d4e3d5755
+netlify link: https://660c38bfa601e24d4e3d5755--thriving-squirrel-68030c.netlify.app/
