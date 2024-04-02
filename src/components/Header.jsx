@@ -4,9 +4,9 @@ const Header = () => {
   const rainbow = ['Red','Orange','Yellow','Green','Blue','Indigo','Violet'];
   return (
     <>
-      <Link to='/'><h3>Home</h3></Link>
+      <Link to='/'><button>Home</button></Link>
       {rainbow.map((color)=>{
-        return <Link to={`/${color.toLowerCase()}`}>{color}</Link>
+        return <Link to={`/${color.toLowerCase()}`}><button>{color}</button></Link>
       })}
     </>
   )

@@ -8,7 +8,9 @@ import Home from './components/Home.jsx'
 function App() {
   return (
     <>
-      <Header/>
+      <div>
+        <Header/>
+      </div>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/:color' element={<Color/>}/>
